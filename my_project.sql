@@ -1,0 +1,106 @@
+-- CREATE TABLE staff_mngt.lecturer (
+--     lecturer_id SERIAL PRIMARY KEY,
+--     full_name VARCHAR(50) NOT NULL,
+--     email VARCHAR(100) UNIQUE NOT NULL,
+--     phone VARCHAR(15));
+-- INSERT INTO staff_mngt.lecturer (lecturer_id, full_name, email, phone)
+-- VALUES
+-- (112345, 'Nti Amu', 'ntiamu@st.ug.edu.gh', '0241576472'),
+-- (212345, 'Alhassan Moro', 'almoro@st.ug.edu.gh', '0272800472'),
+-- (312345, 'Michael Agyapong', 'mipong@st.ug.edu.gh', '0241576000'),
+-- (412345, 'James Forth', 'jaforth@st.ug.edu.gh', '0541909082'),
+-- (512345, 'David Attakorah', 'dakorah@st.ug.edu.gh', '0256784532'),
+-- (612345, 'John Asiamah', 'jomiah@st.ug.edu.gh', '0262879999'),
+-- (712345, 'Abu Trica', 'aburica@st.ug.edu.gh', '0256433312')
+
+--select * from staff_mngt.lecturer;
+
+-- CREATE TABLE staff_mngt.teaching_assistant (
+--     ta_id SERIAL PRIMARY KEY,
+--     fullname VARCHAR(50) NOT NULL,
+--     email VARCHAR(100) UNIQUE NOT NULL,
+--     phone VARCHAR(15)
+-- );
+
+-- INSERT INTO staff_mngt.teaching_assistant (ta_id, fullname, email, phone)
+-- VALUES
+-- (102345, 'Boamah isaac', 'boac@gmail.com', '0591576472'),
+-- (202345, 'Alhassan Ali', 'alhahi@gmail.com', '0297800472'),
+-- (302345, 'Michaelle Agyaponmaa', 'micmaa@gmail.com', '0551576000'),
+-- (402345, 'Jamie Fosu', 'jamsu@gmail.com', '0532909082'),
+-- (502345, 'Daniel Attah', 'dantah@gmail.com', '02500084532'),
+-- (602345, 'John Anim', 'jonim@gmail.com', '0262870000'),
+-- (702345, 'Aba Tawiah', 'abawiah@gmail.com', '0256433329')
+
+--select * from staff_mngt.teaching_assistant;
+
+ 
+-- CREATE TABLE student_mngt.fees (
+--     student_id VARCHAR(8) PRIMARY KEY REFERENCES student_mngt.student(student_id),
+--     total_fees DECIMAL(10, 2)
+-- );
+
+-- Inserting fees data into the fees table
+-- INSERT INTO student_mngt.fees (student_id, total_fees) VALUES
+--     ('11238011', 1500.00),
+--     ('11238012', 1500.00),
+--     ('11238013', 1500.00),
+--     ('11238014', 1500.00),
+--     ('11238015', 1500.00),
+--     ('11238016', 1500.00),
+--     ('11238017', 1500.00),
+--     ('11238018', 1500.00),
+--     ('11238019', 1500.00),
+--     ('11238020', 1500.00),
+--     ('11238021', 1500.00),
+--     ('11238022', 1500.00),
+--     ('11238023', 1500.00),
+--     ('11238024', 1500.00),
+--     ('11238025', 1500.00),
+--     ('11238026', 1500.00),
+--     ('11238027', 1500.00),
+--     ('11238028', 1500.00),
+--     ('11238029', 1500.00),
+--     ('11238030', 1500.00),
+--     ('11238031', 1500.00),
+--     ('11238032', 1500.00),
+--     ('11238033', 1500.00),
+--     ('11238034', 1500.00),
+--     ('11238035', 1500.00),
+--     ('11238036', 1500.00),
+--     ('11238037', 1500.00),
+--     ('11238038', 1500.00),
+--     ('11238039', 1500.00),
+--     ('11238040', 1500.00),
+--     ('11238041', 1500.00),
+--     ('11238042', 1500.00),
+--     ('11238043', 1500.00),
+--     ('11238044', 1500.00),
+--     ('11238045', 1500.00),
+--     ('11238046', 1500.00),
+--     ('11238047', 1500.00),
+--     ('11238048', 1500.00),
+--     ('11238049', 1500.00),
+--     ('11238050', 1500.00),
+--     ('11238051', 1500.00),
+--     ('11238052', 1500.00),
+--     ('11238053', 1500.00),
+--     ('11238054', 1500.00),
+--     ('11238055', 1500.00),
+--     ('11238056', 1500.00),
+--     ('11238057', 1500.00),
+--     ('11238058', 1500.00),
+--     ('11238059', 1500.00),
+--     ('11238060', 1500.00),
+--     ('11238061', 1500.00),
+--     ('11238062', 1500.00),
+--     ('11238063', 1500.00),
+--     ('11238064', 1500.00),
+--     ('11238065', 1500.00),
+--     ('11238066', 1500.00),
+--     ('11238067', 1500.00),
+--     ('11238068', 1500.00),
+--     ('11238069', 1500.00),
+--     ('11238070', 1500.00);
+
+select * from student_mngt.fees;
